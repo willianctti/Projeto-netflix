@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+h1 {
+    position: absolute;
+    left: 15%;
+    top: 26%;
+    color: white;
+}
+
+div#bruna {
+    position: absolute;
+    top: 250px;
+    left: 199px;
+    border-radius: 8px;
+    background-color: white;
+    width: 90px;
+    height: 100px;
+}
+
+p {
+    color: rgb(105, 105, 105);
+    position: absolute;
+    top: 350px;
+    left: 223px;
+}
+
+div#perfis {
+    position: absolute;
+    top: 420px;
+    left: 165px;
+    padding: 5px;
+    border: 1px solid rgb(105, 105, 105);
+    background-color: black;
+    color: rgb(105, 105, 105);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 5px white;
+}
