@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        position: absolute;
+        left: 24%;
+        top: 26%;
+        color: white;
+    }
+    div#bruna {
+        background-image: url(imagens/amor.jpeg);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 43%;
+        left: 42%;
+        border-radius: 8px;
+        background-color: white;
+        width: 90px;
+        height: 100px;
+    }
+    p {
+        color: rgb(105, 105, 105);
+        position: absolute;
+        top: 59%;
+        left: 45%;
+    }
+    div#perfis {
+        position: absolute;
+        top: 68%;
+        left: 37%;
+        padding: 5px;
+        border: 1px solid rgb(105, 105, 105);
+        background-color: black;
+        color: rgb(105, 105, 105);
+        height: 20px;
+        width: 150px;
+        text-align: center;
+        margin: 5px white;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        position: absolute;
+        left: 32%;
+        top: 26%;
+        color: white;
+    }
+    div#bruna {
+        background-image: url(imagens/amor.jpeg);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 43%;
+        left: 45%;
+        border-radius: 8px;
+        background-color: white;
+        width: 90px;
+        height: 100px;
+    }
+    p {
+        color: rgb(105, 105, 105);
+        position: absolute;
+        top: 59%;
+        left: 47.3%;
+    }
+    div#perfis {
+        position: absolute;
+        top: 68%;
+        left: 41%;
+        padding: 5px;
+        border: 1px solid rgb(105, 105, 105);
+        background-color: black;
+        color: rgb(105, 105, 105);
+        height: 20px;
+        width: 150px;
+        text-align: center;
+        margin: 5px white;
+    }
+}
