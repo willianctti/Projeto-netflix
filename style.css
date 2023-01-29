@@ -14,9 +14,13 @@ h1 {
 }
 
 div#bruna {
+    background-image: url(imagens/amor.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
-    top: 250px;
-    left: 199px;
+    top: 43%;
+    left: 39%;
     border-radius: 8px;
     background-color: white;
     width: 90px;
@@ -26,14 +30,14 @@ div#bruna {
 p {
     color: rgb(105, 105, 105);
     position: absolute;
-    top: 350px;
-    left: 223px;
+    top: 59%;
+    left: 43.5%;
 }
 
 div#perfis {
     position: absolute;
-    top: 420px;
-    left: 165px;
+    top: 68%;
+    left: 32%;
     padding: 5px;
     border: 1px solid rgb(105, 105, 105);
     background-color: black;

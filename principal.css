@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(imagens/nos.jpeg);
+    background-repeat: no-repeat;
+    background-position: right right;
+    background-size: cover;
+    background-color: rgb(17, 17, 17);
+}
+img#logo {
+    position: absolute;
+    bottom: 93%;
+    size: 5px;
+    width: 70px;
+}
+h5#navegar {
+    color: white;
+    position: absolute;
+    bottom: 92.5%;
+    left: 18%;
+    font-size: 0.7em;
+}
+
+#lupa {
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    color: white;
+    width: 30px;
+
+}
+
+#sino {
+    position: absolute;
+    top: 1%;
+    left: 83%;
+    color: white;
+}
+div#icon {
+    background-image: url(imagens/amor.jpeg);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 0.5%;
+    left: 91%;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+p#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 3%;
+}
+p#subtitulo {
+    color: white;
+    font-size: 0.5em;
+    position: absolute;
+    top: 28%;
+    left: 3%;
+}
+
+div#play{
+    display: inline-block;
+    background-color: white;
+    width: 69px;
+    height: 20px;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: left;
+
+}
+
+
