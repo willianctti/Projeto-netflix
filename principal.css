@@ -21,7 +21,7 @@ h5#navegar {
     color: white;
     position: absolute;
     bottom: 92.5%;
-    left: 18%;
+    left: 25%;
     font-size: 0.7em;
 }
 
@@ -89,6 +89,7 @@ div#play{
 ul#tp {
     position: absolute;
     top: 50%;
+    left: 12%;
     display: flex;
     width: 50px;
     height: 50px;
@@ -100,7 +101,7 @@ p#alta {
     position: absolute;
     font-size: 0.7em;
     top: 48%;
-    left: 9.4%;
+    left: 20%;
 }
 
 ul#tp img {
@@ -116,15 +117,17 @@ p#novamente {
     position: absolute;
     font-size: 0.7em;
     top: 71%;
-    left: 9.5%;
+    left: 20%;
 }
 
 ul#sp {
     position: absolute;
     top: 73%;
+    left: 12%;
     display: flex;
     width: 50px;
     height: 50px;
+    
 
 }
 
