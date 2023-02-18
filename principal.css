@@ -5,12 +5,19 @@
 }
 
 body {
-    background-image: url(imagens/nos.jpeg);
-    background-repeat: no-repeat;
-    background-position: right right;
-    background-size: cover;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(17, 17, 17);;
 }
+
+div#imagem {
+    background-image: url(imagens/nos.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 99%;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+}
+
 img#logo {
     position: absolute;
     bottom: 93%;
@@ -27,8 +34,8 @@ h5#navegar {
 
 #lupa {
     position: absolute;
-    top: 1%;
-    left: 75%;
+    top: 2.3%;
+    left: 78%;
     color: white;
     width: 30px;
 
@@ -36,8 +43,8 @@ h5#navegar {
 
 #sino {
     position: absolute;
-    top: 1%;
-    left: 83%;
+    top: 2%;
+    left: 70%;
     color: white;
 }
 div#icon {
@@ -45,8 +52,8 @@ div#icon {
     background-position: right right;
     background-size: cover;
     position: absolute;
-    top: 0.5%;
-    left: 91%;
+    top: 2%;
+    left: 87%;
     width: 30px;
     height: 30px;
     border-radius: 5px;
@@ -55,7 +62,7 @@ div#icon {
 p#titulo {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.7em;
     text-transform: uppercase;
     position: absolute;
     top: 13%;
@@ -63,7 +70,7 @@ p#titulo {
 }
 p#subtitulo {
     color: white;
-    font-size: 0.5em;
+    font-size: 0.8em;
     position: absolute;
     top: 28%;
     left: 3%;
@@ -73,14 +80,14 @@ div#play{
     display: inline-block;
     color: black;
     background-color: white;
-    width: 69px;
-    height: 20px;
+    width: 112px;
+    height: 35px;
     position: absolute;
     top: 35%;
     left: 3%;
     border-radius: 3px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1.3em;
 
 }
 
@@ -89,7 +96,7 @@ div#play{
 ul#tp {
     position: absolute;
     top: 50%;
-    left: 12%;
+    left: -5%;
     display: flex;
     width: 50px;
     height: 50px;
@@ -99,31 +106,31 @@ ul#tp {
 p#alta {
     color: white;
     position: absolute;
-    font-size: 0.7em;
-    top: 48%;
-    left: 20%;
+    font-size: 1.2em;
+    top: 47%;
+    left: 5%;
 }
 
 ul#tp img {
     
-    width: 130px;
+    width: 178px;
     margin-right: 19px;
-    border-radius: 2px;
+    border-radius: 1px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
 }
 
 p#novamente {
     color: white;
     position: absolute;
-    font-size: 0.7em;
-    top: 71%;
-    left: 20%;
+    font-size: 1.2em;
+    top: 70%;
+    left: 5%;
 }
 
 ul#sp {
     position: absolute;
     top: 73%;
-    left: 12%;
+    left: -5%;
     display: flex;
     width: 50px;
     height: 50px;
@@ -132,7 +139,7 @@ ul#sp {
 }
 
 ul#sp img {
-    width: 130px;
+    width: 175px;
     margin-right: 19px;
     border-radius: 2px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
