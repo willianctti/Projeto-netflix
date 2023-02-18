@@ -13,7 +13,7 @@ div#imagem {
     background-size: cover;
     background-position: center center;
     width: 99%;
-    height: 400px;
+    height: 350px;
     border-radius: 5px;
     box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
 }
@@ -72,7 +72,7 @@ p#subtitulo {
     color: white;
     font-size: 0.8em;
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
 }
 
@@ -83,7 +83,7 @@ div#play{
     width: 112px;
     height: 35px;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 3%;
     border-radius: 3px;
     text-align: center;
@@ -95,11 +95,10 @@ div#play{
 
 ul#tp {
     position: absolute;
-    top: 50%;
+    top: 58%;
     left: -5%;
     display: flex;
-    width: 50px;
-    height: 50px;
+    
 
 }
 
@@ -107,8 +106,8 @@ p#alta {
     color: white;
     position: absolute;
     font-size: 1.2em;
-    top: 47%;
-    left: 5%;
+    top: 54%;
+    left: 3%;
 }
 
 ul#tp img {
@@ -123,13 +122,13 @@ p#novamente {
     color: white;
     position: absolute;
     font-size: 1.2em;
-    top: 70%;
-    left: 5%;
+    top: 79%;
+    left: 3%;
 }
 
 ul#sp {
     position: absolute;
-    top: 73%;
+    top: 83%;
     left: -5%;
     display: flex;
     width: 50px;

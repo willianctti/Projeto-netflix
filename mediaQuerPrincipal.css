@@ -1,64 +1,4 @@
 
-@media screen and (min-width: 550px) and (max-width: 700px) {
-    * {
-        font-family: Arial, Helvetica, sans-serif
-    }
-    h5#navegar {
-        color: white;
-        position: absolute;
-        bottom: 92.5%;
-        left: 20%;
-        font-size: 0.7em;
-    }
-    p#alta {
-        color: white;
-        position: absolute;
-        font-size: 0.7em;
-        top: 53%;
-        left: 15%;
-    }
-    ul#tp {
-        position: absolute;
-        top: 55%;
-        left: 8%;
-        display: flex;
-        width: 80px;
-        height: 80px;
-        
-        
-    }
-    ul#tp img {
-        
-        width: 190px;
-        margin-right: 19px;
-        border-radius: 2px;
-        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
-    }
-
-    p#novamente {
-        color: white;
-        position: absolute;
-        font-size: 0.7em;
-        top: 88%;
-        left: 15%;
-    }
-    ul#sp {
-        position: absolute;
-        top: 90%;
-        left: 8%;
-        display: flex;
-        width: 50px;
-        height: 50px;
-    }
-
-    ul#sp img {
-        width: 190px;
-        margin-right: 19px;
-        border-radius: 2px;
-        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
-    }
-}
-
 @media screen and (min-width: 700px) and (max-width: 902px) {
     * {
         font-family: Arial, Helvetica, sans-serif
@@ -123,12 +63,54 @@
     * {
         font-family: Arial, Helvetica, sans-serif
     }
+    div#imagem {
+        background-image: url(imagens/nos.jpeg);
+        background-size: cover;
+        background-position: center center;
+        width: 99%;
+        height: 500px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    }
+    img#logo {
+        position: absolute;
+        bottom: 90%;
+        size: 5px;
+        width: 100px;
+    }
     h5#navegar {
         color: white;
         position: absolute;
-        bottom: 92.5%;
+        bottom: 90%;
         left: 13%;
-        font-size: 0.7em;
+        font-size: 0.9em;
+    }
+    #lupa {
+        position: absolute;
+        top: 4%;
+        left: 88%;
+        color: white;
+        width: 90px;
+        height: 60px;
+    
+    }
+    
+    #sino {
+        position: absolute;
+        top: 3.7%;
+        left: 84%;
+        color: white;
+    }
+    div#icon {
+        background-image: url(imagens/amor.jpeg);
+        background-position: right right;
+        background-size: cover;
+        position: absolute;
+        top: 2%;
+        left: 92%;
+        width: 42px;
+        height: 50px;
+        border-radius: 5px;
     }
     p#titulo {
         font-family: Arial, Helvetica, sans-serif;
@@ -150,16 +132,17 @@
 
     div#play{
     display: inline-block;
-    color: black;
+    color: rgb(44, 44, 44);
     background-color: white;
-    width: 69px;
-    height: 20px;
+    width: 100px;
+    height: 35px;
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 3%;
     border-radius: 3px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.407);
 
 }
 
