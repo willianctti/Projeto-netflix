@@ -3,6 +3,15 @@
     * {
         font-family: Arial, Helvetica, sans-serif
     }
+    div#imagem {
+        background-image: url(imagens/nos.jpeg);
+        background-size: cover;
+        background-position: center center;
+        width: 99%;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    }
     h5#navegar {
         color: white;
         position: absolute;
