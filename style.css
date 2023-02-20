@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-    position: absolute;
-    left: 15%;
-    top: 26%;
+    text-align: center;
+    position: relative;
+    top: 150px;
     color: white;
 }
 
@@ -22,8 +22,9 @@ div#bruna {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 43%;
-    left: 39%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 8px;
     background-color: white;
     width: 90px;
@@ -33,14 +34,16 @@ div#bruna {
 p {
     color: rgb(105, 105, 105);
     position: absolute;
-    top: 59%;
-    left: 43.5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);
 }
 
 div#perfis {
     position: absolute;
-    top: 68%;
-    left: 32%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 350%);
     padding: 5px;
     border: 1px solid rgb(105, 105, 105);
     background-color: black;
