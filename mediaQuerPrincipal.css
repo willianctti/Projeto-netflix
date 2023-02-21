@@ -1,4 +1,10 @@
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        *
 
+     }
 @media screen and (min-width: 700px) and (max-width: 902px) {
     * {
         font-family: Arial, Helvetica, sans-serif
