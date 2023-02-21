@@ -1,6 +1,8 @@
 
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 ul {
@@ -23,6 +25,7 @@ div#imagem {
     height: 350px;
     border-radius: 5px;
     box-shadow: 1px 1px 8px rgba(146, 146, 146, 0.274);
+    display: inline-block;
 }
 
 img#logo {
@@ -34,7 +37,7 @@ img#logo {
 h5#navegar {
     color: white;
     position: absolute;
-    bottom: 92.5%;
+    bottom: 95.4%;
     left: 25%;
     font-size: 0.7em;
 }
@@ -102,8 +105,9 @@ div#play{
 
 ul#tp {
     position: absolute;
-    top: 58%;
-    left: -5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
     display: flex;
     
 
@@ -111,42 +115,42 @@ ul#tp {
 
 p#alta {
     color: white;
-    position: absolute;
     font-size: 1.2em;
-    top: 54%;
-    left: 3%;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -241%, 110%);
 }
 
 ul#tp img {
     
-    width: 165px;
-    margin-right: 19px;
+    width: 155px;
+    margin: 10px;
     border-radius: 1px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
 }
 
 p#novamente {
     color: white;
-    position: absolute;
     font-size: 1.2em;
-    top: 79%;
-    left: 3%;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -92%, 825%);
 }
+
 
 ul#sp {
     position: absolute;
-    top: 83%;
-    left: -5%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    width: 50px;
-    height: 50px;
-    
-
 }
 
 ul#sp img {
-    width: 165px;
-    margin-right: 19px;
+    width: 155px;
+    margin: 10px;
     border-radius: 2px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
 }

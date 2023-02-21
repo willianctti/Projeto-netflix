@@ -21,47 +21,50 @@
     }
     p#alta {
         color: white;
+        font-size: 1.1em;
         position: absolute;
-        font-size: 0.7em;
-        top: 63%;
-        left: 14%;
+        top: 50%;
+        left: 50%;
+        transform: translate( -410%, 500%);
+
     }
     ul#tp {
         position: absolute;
-        top: 65%;
-        left: 8%;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,);
         display: flex;
-        width: 80px;
-        height: 80px;
         
-        
+    
     }
     ul#tp img {
-        
+    
         width: 250px;
-        margin-right: 19px;
-        border-radius: 2px;
+        margin: 10px;
+        border-radius: 1px;
         box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
     }
     p#novamente {
         color: white;
+        font-size: 1.1em;
         position: absolute;
-        font-size: 0.7em;
-        top: 98%;
-        left: 14%;
+        top: 50%;
+        left: 50%;
+        transform: translate( -158%, 1600%);
     }
     ul#sp {
         position: absolute;
-        top: 100%;
-        left: 8%;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%,);
         display: flex;
-        width: 50px;
-        height: 50px;
+        
+    
     }
-
+    
     ul#sp img {
         width: 250px;
-        margin-right: 19px;
+        margin: 10px;
         border-radius: 2px;
         box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
     }
