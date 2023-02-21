@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        background-color: black;
+    }
+
+    div#assistir {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }

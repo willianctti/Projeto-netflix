@@ -134,9 +134,9 @@ p#novamente {
     color: white;
     font-size: 1.2em;
     position: absolute;
-        top: 47%;
+        top: 80%;
         left: 50%;
-        transform: translate( -92%, 825%);
+        transform: translate( -92%, -50%);
 }
 
 
