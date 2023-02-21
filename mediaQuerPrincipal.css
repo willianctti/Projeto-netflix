@@ -1,10 +1,4 @@
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) {
-        *
 
-     }
 @media screen and (min-width: 700px) and (max-width: 902px) {
     * {
         font-family: Arial, Helvetica, sans-serif
@@ -99,7 +93,7 @@
     h5#navegar {
         color: white;
         position: absolute;
-        bottom: 90%;
+        bottom: 94%;
         left: 13%;
         font-size: 0.9em;
     }
@@ -136,7 +130,7 @@
         font-size: 1.8em;
         text-transform: uppercase;
         position: absolute;
-        top: 13%;
+        top: 19%;
         left: 3%;
     }
 
@@ -150,62 +144,67 @@
 
     div#play{
     display: inline-block;
-    color: rgb(44, 44, 44);
+    color: rgb(57, 57, 57);
     background-color: white;
     width: 100px;
     height: 35px;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 3%;
     border-radius: 3px;
     text-align: center;
     font-size: 1.2em;
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.407);
+    line-height: 35px;
 
 }
 
-    p#alta {
-        color: white;
-        position: absolute;
-        font-size: 0.9em;
-        top: 87%;
-        left: 220px;
-    }
-    ul#tp {
-        position: absolute;
-        top: 90%;
-        left: 20%;
-        display: flex;
-        
-        
-    }
-    ul#tp img {
-        
-        width: 250px;
-        margin-right: 19px;
-        border-radius: 2px;
-        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
-    }  
+p#alta {
+    color: white;
+    font-size: 1.1em;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate( -410%, 500%);
+
+}
+ul#tp {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,);
+    display: flex;
+    
+
+}
+ul#tp img {
+
+    width: 250px;
+    margin: 10px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);} 
 
     p#novamente {
         color: white;
+        font-size: 1.1em;
         position: absolute;
-        font-size: 0.9em;
-        top: 127%;
-        left: 220px;
+        top: 65%;
+        left: 50%;
+        transform: translate( -158%, 1600%);
     }
     ul#sp {
         position: absolute;
-        top: 130%;
-        left: 20%;
+        top: 135%;
+        left: 50%;
+        transform: translate(-50%,);
         display: flex;
-        width: 50px;
-        height: 50px;
+        
+    
     }
-
+    
     ul#sp img {
         width: 250px;
-        margin-right: 19px;
+        margin: 10px;
         border-radius: 2px;
         box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
     }
