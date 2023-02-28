@@ -157,6 +157,13 @@
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.407);
     line-height: 35px;
 
+    transition: 0.3s ease;
+}
+
+div#play:hover {
+    position: absolute;
+    top: 54%;
+    left: 3%;
 }
 
 p#alta {
