@@ -29,6 +29,12 @@ div#bruna {
     background-color: white;
     width: 90px;
     height: 100px;
+ 
+    transition: transform 0.3s ease;
+}
+
+div#bruna:hover {
+    transform: translate(-50%, -60%);
 }
 
 p {
