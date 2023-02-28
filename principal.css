@@ -99,6 +99,13 @@ div#play{
     text-align: center;
     font-size: 1.3em;
 
+    transition: 0.3s ease;
+}
+
+div#play:hover {
+    position: absolute;
+    top: 39%;
+    left: 3%;
 }
 
 
